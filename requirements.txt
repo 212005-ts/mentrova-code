@@ -1,25 +1,25 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Core framework
-fastapi==0.116.1
-uvicorn[standard]==0.35.0
-pydantic==2.11.7
+fastapi
+uvicorn[standard]
+pydantic
 
 # Hugging Face & Transformers
 transformers==4.41.2
 torch==2.5.1+cpu
-accelerate==0.31.0
-safetensors==0.4.2
+accelerate
+safetensors
 
 # Tokenization & Sentence Handling
-sentencepiece==0.2.0     # has wheels on PyPI, no build
-tokenizers==0.19.1       # prebuilt wheels exist
+sentencepiece
+tokenizers
 
 # Utils
-numpy==1.26.4
-requests==2.32.3
-python-dotenv==1.0.1
-python-multipart==0.0.9
+numpy
+requests
+python-dotenv
+python-multipart
 
 # Optional: streaming + async
-httpx==0.27.0
+httpx
