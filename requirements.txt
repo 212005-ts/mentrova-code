@@ -12,8 +12,8 @@ accelerate==0.33.0
 safetensors==0.4.2
 
 # Tokenization & Sentence Handling
-sentencepiece==0.2.1
-tokenizers==0.19.1
+sentencepiece==0.1.99
+tokenizers==0.15.2
 
 # Utils
 numpy==1.26.4
