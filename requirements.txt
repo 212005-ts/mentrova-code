@@ -16,8 +16,8 @@ accelerate==0.33.0
 safetensors==0.4.2
 
 # Tokenization & Sentence Handling
-sentencepiece==0.2.0
-tokenizers==0.19.0   # or remove completely if still failing
+sentencepiece==0.2.1
+tokenizers==0.19.0   # downgrade to avoid Rust builds
 
 # Utils
 numpy==1.26.4
