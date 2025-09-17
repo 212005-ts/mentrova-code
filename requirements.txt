@@ -1,6 +1,7 @@
 pip>=25.2
 setuptools>=75
 wheel
+--only-binary=:all:
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Core framework
@@ -16,7 +17,7 @@ safetensors==0.4.2
 
 # Tokenization & Sentence Handling
 sentencepiece==0.2.0
-tokenizers==0.19.0
+tokenizers==0.19.0   # or remove completely if still failing
 
 # Utils
 numpy==1.26.4
