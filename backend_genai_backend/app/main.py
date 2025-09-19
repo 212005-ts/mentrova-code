@@ -4,12 +4,13 @@ from pydantic import BaseModel, Field
 from typing import List, Dict, Optional
 import time
 
-from app.services.run_phi2 import phi2      # Phi-2 singleton
-from app.services.run_gemma import gemma    # Gemma singleton
-from app.services.run_qwen import qwen      # Qwen singleton
-# from app.services.run_llama import llama2  # 🚧 coming soon
+from backend_genai_backend.app.services.run_phi2 import phi2   # Phi-2 singleton
+from backend_genai_backend.app.services.run_gemma import gemma  # Gemma singleton
+from backend_genai_backend.app.services.run_qwen import qwen    # Qwen singleton
+# from backend_genai_backend.app.services.run_llama import llama2  # 🚧 coming soon
 
-from app.tools.tool_manager import use_tool  # ✅ NEW
+from backend_genai_backend.app.tools.tool_manager import use_tool  # ✅ NEW
+
 
 app = FastAPI()
 
